@@ -28,3 +28,12 @@ While the dataset made it feasible to extract an Items table, the decision was m
 **Simplified Schema**: The essential attributes of the Items table (e.g., item description, type, and ID) are already included in the Inventory Table. This avoids redundancy and keeps the database structure straightforward.
 **Limited Business Relevance**: For Greenspot’s operational focus, items are primarily managed as part of inventory rather than as a standalone entity. Separating Items into its own table could complicate queries without adding significant business value.
 **Optimization for Queries**: By consolidating item attributes into the Inventory Table, queries related to stock levels, item details, and vendor associations can be executed faster and more efficiently.
+
+### Project Summary
+The resulting database design organizes Greenspot’s operations into three essential tables—Inventory, Vendors, and Sales—while intentionally omitting the Items table to prioritize simplicity, avoid redundancy, and streamline queries. This decision enhances the database's usability and performance, aligning with Greenspot’s operational focus.
+
+The SQL script i wrote for this database creation showcases the technical implementation and can be accessed [here](https://github.com/danielolaniyi1/Database-Creation-MySQL/blob/main/greenspot%20DB.sql) 
+
+This project not only addresses Greenspot’s immediate data management needs but also prepares the company for smooth integration into the acquiring retail chain’s systems. The database ensures operational efficiency, maintains data integrity, and provides the scalability necessary for Greenspot’s continued growth 
+
+By transitioning from spreadsheets to a relational database, Greenspot Retail has established a robust foundation for long-term success, adaptability, and competitive advantage in a dynamic market.
