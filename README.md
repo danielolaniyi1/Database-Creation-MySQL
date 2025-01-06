@@ -1,6 +1,8 @@
 
 # GreenSpot Retail Database Creation - MySQL
 This project showcases the creation and design of a MySQL database for a retail business, Greenspot. A sample of the company’s data via a .csv spreadsheet was provided to create the relational database for Greenspot (a retail business). The database is designed to address data management challenges, improve operational efficiency, and support Greenspot's strategic growth.
+The SQL script i wrote for this database creation showcases the technical implementation and can be accessed [here](https://github.com/danielolaniyi1/Database-Creation-MySQL/blob/main/greenspot%20DB.sql) 
+
 
 ## Reason for Database Creation
 Greenspot Retail’s growth and a pending merger with a larger retail chain necessitate a shift from spreadsheets to a database system. This report highlights the need for the transition and the advantages of adopting a database. Spreadsheets have served as a foundational tool but present limitations when dealing with interconnected datasets, scalability, and real-time analytics. The merger requires integrating Greenspot’s operations with the acquiring company’s systems. Spreadsheets cannot handle the volume and complexity of interconnected data, while a database ensures consistency and supports efficient integration. Transitioning to a database is essential for Greenspot’s success post-merger. It resolves spreadsheet limitations, supports integration, and enhances scalability and efficiency, ensuring sustained operational excellence.
